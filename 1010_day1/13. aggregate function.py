@@ -27,6 +27,7 @@ print(f"열(axis=0) 기준 합계: {sum_axis_0}") # [12 15 18]
 
 # 3. axis=1 (행 기준 합계)
 # [1+2+3, 4+5+6, 7+8+9]
+sum_axis_1 = arr2d.sum(axis=1)
 print(f"행(axis=1) 기준 합계: {sum_axis_1}") # [ 6 15 24]
 
 # 4. 각 열에서 최댓값의 인덱스 찾기
